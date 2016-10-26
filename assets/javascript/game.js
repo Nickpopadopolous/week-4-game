@@ -33,6 +33,7 @@ function intializeNewGame(){
     crystalValues['greenCrystal'] = Math.floor(Math.random() * 12) + 1;
     $("#numberToGuess").html(numberToGuess);
     totalNumber = 0;
+    $('#totalScore').html(0);
 }
 
 function addToTotal(value){
